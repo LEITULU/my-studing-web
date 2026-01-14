@@ -22,8 +22,7 @@ function Profile() {
 
       <div className="profile-links">
         <a
-          href="https://x.com/LEITULUmain
-"
+          href="https://x.com/LEITULUmain"
           target="_blank"
           rel="noopener noreferrer"
         >
