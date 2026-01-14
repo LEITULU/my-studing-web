@@ -1,5 +1,5 @@
 import StudyCard from "./StudyCard";
-import "../css/Study.css";
+import "../../css/study.css";
 
 function Study() {
   return (

@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import Profile from "./components/Profile";
-import Study from "./components/Study";
+import Study from "./components/studing/Study";
 
 import "./css/App.css"
 
