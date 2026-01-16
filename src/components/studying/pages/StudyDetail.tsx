@@ -1,12 +1,21 @@
 import { useParams } from "react-router-dom";
+import { Suspense } from "react";
+import { studyPages } from "./index";
 
 function StudyDetail() {
   const { slug } = useParams<{ slug: string }>();
+  const Page = slug ? studyPages[slug as keyof typeof studyPages] : null;
+
+  if (!Page) {
+    return <div>ページが見つかりません</div>
+  }
 
   return (
-  <div> 
-    <h2>{slug} の学習内容</h2>
-  </div>
+  <>
+  <Suspense fallback={<div>読み込み中...</div>}>
+    <Page />
+  </Suspense>
+  </>
   );
 }
 

@@ -13,13 +13,13 @@ function App() {
         <div className="logo">私の学習記録</div>
         <nav className="nav">
           <Link to="/">ホーム</Link>
-          <Link to="/react-study">学習記録</Link>
+          <Link to="/studying">学習記録</Link>
         </nav>
       </header>
 
       <Routes>
         <Route path="/" element={<Profile />} />
-        <Route path="/react-study" element={<Study />} />
+        <Route path="/studying" element={<Study />} />
         <Route path="/study/:slug" element={<StudyDetail />} />
       </Routes>
     </BrowserRouter>

@@ -1,14 +1,10 @@
 
-function Reactbasic() {
+function ReactBasic() {
   return (
-  <>
-  <div>
-    <h2>React 基礎の学習内容</h2>
-    <p>React はユーザーインターフェースを構築するための JavaScript ライブラリです。コンポーネントベースのアーキテクチャにより、再利用可能な UI 要素を構築できます。</p>
-    <h3>主な学習ポイント</h3>
-  </div>
-  </>
+    <div>
+      <h2>React 基礎</h2>
+      <p>useState / useEffect など</p>
+    </div>
   );
 }
-
-export default Reactbasic;
+export default ReactBasic;
