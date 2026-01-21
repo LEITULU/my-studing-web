@@ -2,8 +2,7 @@ import StudyCard from "./StudyCard";
 import "../../css/study.css";
 
 const studyList = [
-  { title: "React基礎", description: "useState / useEffect", slug: "react-basics" },
-  { title: "TypeScript", description: "型定義とinterface", slug: "typescript" },
+  { title: "初めに....", description: "", slug: "pageNo1" },
 ]
 
 function Study() {

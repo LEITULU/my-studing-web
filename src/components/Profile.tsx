@@ -4,9 +4,6 @@ import "../css/Profile.css";
 function Profile() {
   return (
     <>
-    <div className="title">
-      <h2>ホーム</h2>
-    </div>
     <div className="profile">
       <img
         src={Myicon}
