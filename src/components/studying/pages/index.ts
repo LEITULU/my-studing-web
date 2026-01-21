@@ -1,5 +1,5 @@
 import { lazy } from "react";
 
 export const studyPages = {
-  "pageNo1" : lazy(() => import("./pageNo1")),
+  "npm-introduction" : lazy(() => import("./npm-introduction")),
 } as const;

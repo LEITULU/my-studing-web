@@ -2,7 +2,7 @@ import StudyCard from "./StudyCard";
 import "../../css/study.css";
 
 const studyList = [
-  { title: "初めに....", description: "", slug: "pageNo1" },
+  { title: "npm入門", description: "", slug: "npm-introduction" },
 ]
 
 function Study() {
