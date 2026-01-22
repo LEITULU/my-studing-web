@@ -1,0 +1,28 @@
+import { useLocation } from "react-router-dom";
+import { Content } from "../../layout/Content";
+import { Title } from "../../layout/Title";
+
+function method() {
+  
+  const location = useLocation();
+  const { title } = location.state as { title: string };
+
+  return(
+    <>
+      <Title>{ title }</Title>
+      <Content>
+        <section>
+          <h2>見出し</h2>
+
+          <h3>小見出し</h3>
+
+          <h3>小見出し</h3>
+
+        </section>
+      </Content>
+    </>
+  )
+
+}
+
+export default method();
