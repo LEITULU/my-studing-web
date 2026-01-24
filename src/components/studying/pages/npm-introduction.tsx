@@ -9,8 +9,9 @@ function NpmIntroduction() {
   return (
     <>
     <main className="Content">
-      <Title>{ title }</Title>
+      
       <Content>
+        <Title>{ title }</Title>
         <section>
           <h2>npmの役割とできること</h2>
 
